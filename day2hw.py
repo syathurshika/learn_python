@@ -4,4 +4,4 @@ height=float(input("Enter Your Height in metres:"))
 
 bmi=weight/(height * height)
 
-print(name,", your BMI is",bmi)
+print(f"{name}, your BMI is {bmi}")

@@ -1,3 +1,3 @@
 age=int(input("Enter your age:"))
 citizen=input("Are you a citizen? (yes/no)")
-print("Eligible to vote:",age>=18 and citizen=="yes" )
+print(f"Eligible to vote: {age>=18 and citizen=='yes'}")
