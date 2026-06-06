@@ -1,0 +1,34 @@
+movie1={"Title":"Inception",
+"Director":"Christopher Nolan",
+"Year":2010,"Genre":"Sci-Fi",
+"Rating":8.8,
+"Cast":"\n  Leonardo DiCaprio \n  Joseph Gordon-Levitt \n  Ellen Page \n  Tom Hardy"}
+movie2={"Title":"Interstellar",
+"Director":"Christopher Nolan",
+"Year":2014,"Genre":"Sci-Fi",
+"Rating":8.6,
+"Cast":"\n  Matthew McConaughey \n  Anne Hathaway \n  Jessica Chastain"}
+movie3={"Title":"The Matrix",
+"Director":"Lana Wachowski, Lilly Wachowski",
+"Year":1999,"Genre":"Sci-Fi",
+"Rating":8.7,
+"Cast":"\n  Keanu Reeves \n  Laurence Fishburne \n  Carrie-Anne Moss"}
+movie4={"Title":"Dune",
+"Director":"Denis Villeneuve",
+"Year":2021,
+"Genre":"Sci-Fi","Rating":8.0,
+"Cast":"\n  Timothée Chalamet \n  Rebecca Ferguson \n  Oscar Isaac"}
+movie5={"Title":"Avatar",
+"Director":"James Cameron",
+"Year":2009,"Genre":"Sci-Fi",
+"Rating":7.8,
+"Cast":"\n  Sam Worthington \n  Zoe Saldana \n  Sigourney Weaver"}
+
+movie={"Inception":movie1,"Interstellar":movie2,"The Matrix":movie3,"Dune":movie4,"Avatar":movie5}
+
+print()
+
+for x,y in movie.items():
+    for a,b in y.items():
+        print(f"{a}: {b}")
+    print()
